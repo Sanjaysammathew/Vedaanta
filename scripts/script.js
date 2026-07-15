@@ -124,77 +124,77 @@ $('.comment-slider').slick({
 });
 
 
-// $(document).ready(function () {
+$(document).ready(function () {
 
-//     $("#vedaForm").validate({
+    $("#vedaForm").validate({
 
-//         errorClass: "text-danger",
+        errorClass: "text-danger",
 
-//         rules: {
+        rules: {
 
-//             name: {
-//                 required: true,
-//                 pattern: /^[A-Za-z ]{3,50}$/
-//             },
+            name: {
+                required: true,
+                pattern: /^[A-Za-z ]{3,50}$/
+            },
 
-//             phone: {
-//                 required: true,
-//                 pattern: /^[6-9]\d{9}$/
-//             },
+            phone: {
+                required: true,
+                pattern: /^[6-9]\d{9}$/
+            },
 
-//             email: {
-//                 required: true,
-//                 pattern: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/
-//             },
+            email: {
+                required: true,
+                pattern: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/
+            },
 
-//             interest: {
-//                 required: true
-//             },
+            interest: {
+                required: true
+            },
 
-//             message: {
-//                 maxlength: 300
-//             },
+            message: {
+                maxlength: 300
+            },
 
-//             terms: {
-//                 required: true
-//             }
+            terms: {
+                required: true
+            }
 
-//         },
+        },
 
-//         messages: {
+        messages: {
 
-//             name: {
-//                 required: "Please enter your name",
-//                 pattern: "Only alphabets and spaces are allowed"
-//             },
+            name: {
+                required: "Please enter your name",
+                pattern: "Only alphabets and spaces are allowed"
+            },
 
-//             phone: {
-//                 required: "Please enter your phone number",
-//                 pattern: "Enter a valid 10-digit mobile number"
-//             },
+            phone: {
+                required: "Please enter your phone number",
+                pattern: "Enter a valid 10-digit mobile number"
+            },
 
-//             email: {
-//                 required: "Please enter email",
-//                 pattern: "Invalid email"
-//             },
+            email: {
+                required: "Please enter email",
+                pattern: "Invalid email"
+            },
 
-//             interest: {
-//                 required: "Please select a location"
-//             },
+            interest: {
+                required: "Please select a location"
+            },
 
-//             message: {
-//                 maxlength: "Maximum 300 characters allowed"
-//             },
+            message: {
+                maxlength: "Maximum 300 characters allowed"
+            },
 
-//             terms: {
-//                 required: "Please accept the terms and conditions"
-//             }
+            terms: {
+                required: "Please accept the terms and conditions"
+            }
 
-//         }
+        }
 
-//     });
+    });
 
-// });
+});
 
 });
 
