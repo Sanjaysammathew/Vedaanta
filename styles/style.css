@@ -584,6 +584,7 @@ font-size: 19px;
     align-items:center;
     cursor:pointer;
     margin-left: 10px;
+    text-decoration: none;
 
     animation: blinkOpacity 1.2s infinite;
 }

@@ -123,13 +123,6 @@ $('.comment-slider').slick({
     ]
 });
 
-const chatToggle = document.getElementById("chatToggle");
-const floatingChat = document.querySelector(".floating-chat");
-
-chatToggle.addEventListener("click", () => {
-    floatingChat.classList.toggle("active");
-});
-
 
 // $(document).ready(function () {
 
