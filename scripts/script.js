@@ -1,43 +1,51 @@
 $(document).ready(function () {
 
-    $('.slider-container').slick({
+$('.slider-container').slick({
 
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false,
-        speed: 600,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: true,
 
-        prevArrow: `
-            <button type="button" class="slick-prev">
-                <i class="bi bi-chevron-left"></i>
-            </button>
-        `,
+    autoplay: true,
+    autoplaySpeed: 2500,   
+    speed: 800,            
+    cssEase: 'ease-in-out',
 
-        nextArrow: `
-            <button type="button" class="slick-next">
-                <i class="bi bi-chevron-right"></i>
-            </button>
-        `,
+    pauseOnHover: true,
+    pauseOnFocus: true,
 
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 768,
-                            settings: {
+    dots: false,
+
+    prevArrow: `
+        <button type="button" class="slick-prev">
+            <i class="bi bi-chevron-left"></i>
+        </button>
+    `,
+
+    nextArrow: `
+        <button type="button" class="slick-next">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+    `,
+
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
                 slidesToShow: 1,
                 arrows: false,
                 dots: true
             }
-            }
-        ]
+        }
+    ]
 
-    });
+});
 
  $('.feature-slider').slick({
     slidesToShow: 2,
